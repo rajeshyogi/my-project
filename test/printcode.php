@@ -1,0 +1,4 @@
+<?php
+echo 'working';
+?>
+<iframe width="425" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://maps.google.co.in/maps/ms?msid=212948201247517289842.0004c03ae56c773e8c405&amp;msa=0&amp;ie=UTF8&amp;t=m&amp;iwloc=0004c03ae903add8360ef&amp;ll=26.936303,75.795536&amp;spn=0,0&amp;output=embed"></iframe><br /><small>View <a href="http://maps.google.co.in/maps/ms?msid=212948201247517289842.0004c03ae56c773e8c405&amp;msa=0&amp;ie=UTF8&amp;t=m&amp;iwloc=0004c03ae903add8360ef&amp;ll=26.936303,75.795536&amp;spn=0,0&amp;source=embed" style="color:#0000FF;text-align:left">Jaipur Service Centre</a> in a larger map</small>

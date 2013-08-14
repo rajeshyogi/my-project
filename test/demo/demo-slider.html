@@ -1,0 +1,43 @@
+ <script src="http://code.jquery.com/jquery-1.8.3.js"></script>
+<script src="http://code.jquery.com/ui/1.9.2/jquery-ui.js"></script>
+<script type="text/javascript">
+	$(document).ready(function () {
+		$("#makeMeScrollable").smoothDivScroll({
+			mousewheelScrolling: "allDirections",
+			manualContinuousScrolling: true,
+			autoScrollingMode: "onStart"
+		});
+	});
+</script>
+
+
+<div id="makeMeScrollable">
+		<img src="images/demo/ecommerce-banner.png" alt="Field" id="field" />
+		<img src="images/demo/ecommerce-banner1.png" alt="Gnome" id="gnome" />
+		<img src="images/demo/webdesign_bg.jpg" alt="Pencils" id="pencils" />
+		<img src="images/demo/webdesign-banner.jpg" alt="Golf" id="golf" />
+		<img src="images/demo/webdevelopment-banner.gif" alt="River" id="river" />
+		<img src="images/demo/webdevelopment-banner.png" alt="Train" id="train" />
+		<img src="images/demo/webdevelopment-bg.png" alt="Leaf" id="leaf" />
+		<img src="images/demo/dog.jpg" alt="Dog" id="dog" />
+	</div>
+	
+<style>
+	#makeMeScrollable div.scrollableArea *
+{
+	position: relative;
+	display: block
+	float: left;
+	margin: 0;
+	padding: 0;
+	/* If you don't want the images in the scroller to be selectable, try the following
+		block of code. It's just a nice feature that prevent the images from
+		accidentally becoming selected/inverted when the user interacts with the scroller. */
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-o-user-select: none;
+	user-select: none;
+}
+</style>
+

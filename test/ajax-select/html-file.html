@@ -1,0 +1,27 @@
+<script src="../jquery-1.7.2.min.js"></script>
+<script>
+function result(){
+		$.ajax({
+		  url: 'php-file.php',
+		  success: function(data) {
+			  
+			  $.each(data, function(){
+				
+				$("#result").append(this);
+									
+			 });
+			console.log( $('#myselect'));
+			var temp = "<option value = '1'>" + data + "</option>";
+			
+			$('#myselect').html(temp);
+			//alert(data);
+		  }
+		});
+	}
+</script>
+<input type="button" name="button" value="button" onClick="result();">
+<input id="date" type="text">
+
+<select name="myselect" id="myselect">
+</select>
+<div id="result"></div>

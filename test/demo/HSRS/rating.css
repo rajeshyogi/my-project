@@ -1,0 +1,25 @@
+.rating {
+	cursor: pointer;
+	margin-top: 3px;
+	clear: both;
+	display: block;
+}
+.star{
+	float: left;
+	width: 17px;
+	height: 15px;
+	overflow: hidden;
+	text-indent: -999em;
+	cursor: pointer;
+}
+
+.star,
+.star a {background: url('http://www.hscripts.com/scripts/php/five-star-rating/images/star.gif') no-repeat 0 0px;}
+.star a {
+	display: block;
+}
+
+div.rating div.hover a,
+div.rating div a:hover {
+	background-position: 0 -32px;
+}

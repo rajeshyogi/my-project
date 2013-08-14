@@ -1,0 +1,576 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+
+
+
+ 
+
+
+
+<head>
+
+
+
+
+
+
+
+<title>:TIApps - IT solutions: web designing & development company</title>
+<meta name="keywords" content="TIApps,TIApps in jaipur, TheTIGroup, Web Development Company,e-commerce, web design,seo,web services,top IT company,Trumin" />
+<meta name="description" content="Web development company in jaipur, IT software development, online application development,IT company in jaipur providing SEO services,web design india/jaipur seo services" />
+<link type="image/x-icon" href="favicon.ico" rel="shortcut icon"/>
+<link rel="stylesheet" type="text/css" href="css/skin.css" />
+<link rel="stylesheet" href="css/slideshow.css" type="text/css" media="screen" />
+<link href="css/B_black.css" rel="stylesheet" type="text/css" />
+<style type="text/css" media="all">
+<!--
+@import url("http://tiapps.co.uk/css/style.css");
+-->
+</style>
+<script type="text/javascript" src="http://tiapps.co.uk/js/jquery-1.7.2.min.js"></script>
+<script type="text/javascript" src="http://tiapps.co.uk/js/menu.js"></script>
+<script type="text/javascript" src="http://tiapps.co.uk/js/menu007_min.js"></script>
+<script type="text/javascript" src="http://tiapps.co.uk/js/l_script.js"></script>
+<script type="text/javascript" src="http://tiapps.co.uk/js/jquery.simplyscroll.js"></script>
+<script type="text/javascript" src="http://tiapps.co.uk/js/jquery.jcarousel.min.js"></script>
+<script type="text/javascript" src="http://tiapps.co.uk/js/jquery-ui-1.7.2.custom.min.js"></script>
+
+<script type="text/javascript">
+function mycarousel_initCallback(carousel)
+{
+    // Disable autoscrolling if the user clicks the prev or next button.
+    carousel.buttonNext.bind('click', function() {
+        carousel.startAuto(0);
+    });
+
+    carousel.buttonPrev.bind('click', function() {
+        carousel.startAuto(0);
+    });
+
+    // Pause autoscrolling if the user moves with the cursor over the clip.
+    carousel.clip.hover(function() {
+        carousel.stopAuto();
+    }, function() {
+        carousel.startAuto();
+    });
+};
+
+jQuery(document).ready(function() {
+    jQuery('#mycarousel').jcarousel({
+        auto: 2,
+        wrap: 'last',
+        initCallback: mycarousel_initCallback
+    });
+});
+
+</script>
+<script type="text/javascript">
+$(document).ready(function() {
+	$("#content div").hide(); // Initially hide all content
+	$("#tabs li:first").attr("id","current"); // Activate first tab
+	$("#content div:first").fadeIn(); // Show first tab content
+    
+    $('#tabs a').click(function(e) {
+        e.preventDefault();        
+        $("#content div").hide(); //Hide all content
+        $("#tabs li").attr("id",""); //Reset id's
+        $(this).parent().attr("id","current"); // Activate this
+        $('#' + $(this).attr('title')).fadeIn(); // Show content for current tab
+    });
+})();
+</script>
+<script type="text/javascript">
+    function swapImages(){
+      var $active = $('#myGallery .active');
+      var $next = ($('#myGallery .active').next().length > 0) ? $('#myGallery .active').next() : $('#myGallery img:first');
+      $active.fadeOut(function(){
+      $active.removeClass('active');
+      $next.fadeIn().addClass('active');
+      });
+    }
+
+$(document).ready(function(){
+		setInterval('swapImages()', 5000)				   
+						   });
+   
+  </script>
+<script type="text/javascript">
+(function($) {
+	$(function() {
+		$("#scroller").simplyScroll();
+	});
+})(jQuery);
+</script>
+<!--google-analytics-->
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-33360864-2']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+<!--google-analytics end-->
+<script type="text/javascript">
+var slidetabs =  "";
+$(window).load(function () {
+    $(".slidetabs").data("slideshow").play()
+});
+
+</script>
+</head>
+<body>
+<!-- Page Content -->
+<div id="page-layout">
+<!-- Header Part -->
+<div id="header">
+<div class="header_warper">
+<div class="header_top">
+  <!--  <div id="google_translate_element"></div>
+    <script>function googleTranslateElementInit() {  new google.translate.TranslateElement({    pageLanguage: 'en',    layout: google.translate.TranslateElement.InlineLayout.SIMPLE  }, 'google_translate_element');}</script>
+    <script src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>-->
+  
+  <div class="header-sub-menu">
+    <ul>
+      <li><a href="http://tiapps.co.uk/index.html">Home</a></li>
+      <li><a href="http://tiapps.co.uk/contact">Contact Us</a></li>
+      <li><a href="http://tiapps.co.uk/sitemap">Sitemap</a></li>
+      <li><a href="http://tiapps.co.uk/">Blog</a></li>
+    </ul>
+  </div>
+  
+</div>
+
+<div class="navigation">
+  <div class="logo"> <a href="http://tiapps.co.uk/index.html"> <img src="http://tiapps.co.uk/images/tiapps_logo.png" alt="TIapps"/></a></div>
+  <div id="menu">
+    <ul class="menu">
+      <li><a href="http://tiapps.co.uk/index.html" class="">Home</a></li>
+      <li><a href="http://tiapps.co.uk/about" class="">Company</a></li>
+      <li> <a href="http://tiapps.co.uk/services" class="">Services</a>
+        <div>
+          <ul>
+                        <li> <a href="http://tiapps.co.uk/services/website_design.html" title="Website Design">Website Design</a>
+                          <li> <a href="http://tiapps.co.uk/services/web_development.html" title="Web Development">Web Development</a>
+                          <li> <a href="http://tiapps.co.uk/services/database_applications.html" title="Database Applications">Database Applications</a>
+                          <li> <a href="http://tiapps.co.uk/services/e-commerce_websites.html" title="E-Commerce Websites">E-Commerce Websites</a>
+                          <li> <a href="http://tiapps.co.uk/services/cms_development.html" title="CMS Development">CMS Development</a>
+                          <li> <a href="http://tiapps.co.uk/services/social_media_applications.html" title="Social Media Applications">Social Media Applications</a>
+                          <li> <a href="http://tiapps.co.uk/services/logo_design.html" title="Logo Design">Logo Design</a>
+                          <li> <a href="http://tiapps.co.uk/services/web_hosting.html" title="Web Hosting">Web Hosting</a>
+                          <li> <a href="http://tiapps.co.uk/services/corporate_training.html" title="Corporate Training">Corporate Training</a>
+                          </li>
+          </ul>
+        </div>
+      </li>
+      <li> <a href="http://tiapps.co.uk/partner" class="">Partner</a>
+        <div>
+          <ul>
+                        <li> <a href="http://tiapps.co.uk/partners/TheTIGroup.html" title="TheTIGroup">TheTIGroup</a>
+                          <li> <a href="http://tiapps.co.uk/partners/HexDigital.html" title="HexDigital">HexDigital</a>
+                          <li> <a href="http://tiapps.co.uk/partners/Trumin.html" title="Trumin">Trumin</a>
+                          </li>
+          </ul>
+        </div>
+      </li>
+      <li><a href="http://tiapps.co.uk/portfolio" class="">Portfolio</a></li>
+      <li><a href="http://tiapps.co.uk/apply-now" class="">Career</a></li>
+      <li><a href="http://tiapps.co.uk/contact" class="">Contact us</a></li>
+    </ul>
+  </div>
+  <!-- End of Navigation -->
+
+
+<!-- End of Header Warper -->
+</div>
+
+      
+
+      <div class="clear"></div>
+
+    </div>
+
+
+
+    <!--  Banner Content Add on -->
+
+    <div class="banner_panel">
+
+<div class="banner_content">
+  <div class="container">
+    <div class="wrapper">
+      <div id="ei-slider" class="ei-slider">
+        <ul class="ei-slider-large">
+          <li> <img src="images/large/1.jpg" alt="image01" />
+            <div class="ei-title"> </div>
+          </li>
+          <li> <img src="images/large/2.jpg" alt="image02" />
+            <div class="ei-title"> </div>
+          </li>
+          <li> <img src="images/large/3.jpg" alt="image03"/>
+            <div class="ei-title"> </div>
+          </li>
+          <li> <img src="images/large/4.jpg" alt="image04"/>
+            <div class="ei-title"> </div>
+          </li>
+          <li> <img src="images/large/5.jpg" alt="image05"/>
+            <div class="ei-title"> </div>
+          </li>
+          <li> <img src="images/large/6.jpg" alt="image07"/>
+            <div class="ei-title"> </div>
+          </li>
+          <li> <img src="images/large/7.jpg" alt="image07"/>
+            <div class="ei-title"> </div>
+          </li>
+        </ul>
+        <!-- ei-slider-large -->
+        <ul class="ei-slider-thumbs">
+          <li class="ei-slider-element">Current</li>
+          <li><a href="#">Slide 1</a><img src="images/thumbs/1.jpg" alt="thumb01" /></li>
+          <li><a href="#">Slide 2</a><img src="images/thumbs/2.jpg" alt="thumb02" /></li>
+          <li><a href="#">Slide 3</a><img src="images/thumbs/3.jpg" alt="thumb03" /></li>
+          <li><a href="#">Slide 4</a><img src="images/thumbs/4.jpg" alt="thumb04" /></li>
+          <li><a href="#">Slide 5</a><img src="images/thumbs/5.jpg" alt="thumb05" /></li>
+          <li><a href="#">Slide 6</a><img src="images/thumbs/6.jpg" alt="thumb06" /></li>
+          <li><a href="#">Slide 7</a><img src="images/thumbs/7.jpg" alt="thumb07" /></li>
+        </ul>
+        <!-- ei-slider-thumbs -->
+      </div>
+      <!-- ei-slider -->
+      <div class="reference"> </div>
+    </div>
+    <!-- wrapper -->
+  </div>
+  <script type="text/javascript" src="js/jquery.eislideshow.js"></script>
+  <script type="text/javascript">
+
+            $(function() {
+
+                $('#ei-slider').eislideshow({
+
+					animation			: 'center',
+
+					autoplay			: true,
+
+					slideshow_interval	: 3000,
+
+					titlesFactor		: 0
+
+                });
+
+            });
+
+        </script>
+</div>
+
+
+    <div class="clear"></div>
+
+    </div> <!-- End of Banner Content -->
+
+    
+
+    <div class="clear"></div>  </div>
+
+  <!-- End of Header Part -->
+
+  <!-- Mid Warper -->
+
+<div id="mid_warper">
+  <!-- Company Block -->
+  <div class="company_warper">
+    <div class="box_block">
+      <h2>About Our Company</h2>
+      <div class="box_photo"><a href="about" class="plans"><img src="images/about_company.jpg" alt="About Company" /></a></div>
+      <div class="box_detail">
+        Welcome to <strong>Ti Apps Limited</strong> a leading website design and web Development Company bas        <a href="about" class="plans">More Info</a></div>
+    </div>
+    <div class="box_block box-space">
+      <h2>Clients</h2>
+            <div class="box_photo"><a href="Clients/waycrafts.html"><img src="upload/client_image/1344518427~way-crafts.jpg" height="107" width="256" alt="Clients" /></a></div>
+      <div class="box_detail">Clothing,Accessories,Store peek<br /><a href="Clients/waycrafts.html" class="plans">More Info</a></div>
+    </div>
+    <div class="box_block">
+      <h2>What we do</h2>
+            <div class="box_photo"><a href="services/e-commerce_websites.html"><img src="upload/services_image/1344938152~e-commerce-banner.jpg" height="107" width="256" alt="What We Do" /></a></div>
+<div class="box_detail"><h2>E-Commerce Websites</h2>
+<p>Online businesses have ensured that there are huge transactions taking place every minute all over the world. This ha<a href="services/e-commerce_websites.html" class="plans">More Info</a>
+</div>
+    </div>
+  </div>
+
+  <!--  testimonial part start-->
+  <div class="mid-part-matter">
+    <div class="content-tiapps">
+      <div class="content-left-block">
+        <h2>How we help your Business?</h2>
+
+<ul id="tabs">
+<li><a href="#" title="Vision">Our Vision</a></li>
+<li><a href="#" title="Mission">The Mission</a></li>
+
+<li><a href="#" title="Values">Values</a></li>
+<li><a href="#" title="Team">Team Oriented</a></li>    
+</ul>
+
+<div id="content"> 
+    <div id="Vision">
+        <h2>Our vision</h2>
+        <p>Our Vision serves as the framework for our Roadmap and guides every aspect of our business by describing what we need to accomplish in order to continue achieving sustainable, quality growth.</p>
+<p>People: Be a great place to work where people are inspired to be the best they can be.</p>
+<p>Portfolio: Bring to the world a portfolio of quality beverage brands that anticipate and satisfy people's desires and needs.</p>
+<p>Partners: Nurture a winning network of customers and suppliers, together we create mutual, enduring value.</p>
+<p>Planet: Be a responsible citizen that makes a difference by helping build and support sustainable communities.</p>
+<p>Profit: Maximize long-term return to shareowners while being mindful of our overall responsibilities.</p>
+<p>Productivity: Be a highly effective, lean and fast-moving organization.</p>
+    </div>
+    
+    <div id="Mission">
+        <h2>The Mission</h2>
+
+<p>Our Roadmap starts with our mission, which is enduring. It declares our purpose as a company and serves as the standard against which we weigh our actions and decisions.</p>
+
+<p>To refresh the world with the best software</p>
+<p>To inspire moments of optimism and happiness...</p>
+<p>To create value and make a difference.</p>
+<p>Our vision is to become the recognized industry leader by our customers in the web development businesses in which we compete.</p>
+<p>Our core values include:</p>
+<p>Integrity</p>
+<p>Commitment </p>
+<p>Speed</p>
+
+      
+    </div>
+    <div id="Values">
+        <h2>Values of our company</h2>
+
+<p>We believe that business can drive profits through principles, and that our values as a company and as individuals give us a competitive advantage.</p>
+
+<p>Empathy — walking in other people’s shoes
+Empathy begins with paying close attention to the world around us. We listen and respond to the needs of our customers, employees and other stakeholders.</p>
+
+<p>Originality — being authentic and innovative
+The pioneering spirit that started in London.,still permeates all aspects of our business. Through innovative products and practices, we break the mould.</p>
+
+<p>Integrity — doing the right thing 
+Integrity means doing right by our employees, brands, company and society as a whole. Ethical conduct and social responsibility characterize our way of doing business.</p>
+
+<p>Courage — standing up for what we believe
+It takes courage to be great. Courage is the willingness to tell the truth and to challenge hierarchy, accepted practice and conventional wisdom. It means standing by our convictions and acting on our beliefs.</p>
+
+<p>We are the embodiment of the energy and events of our time, inspiring people from all walks of life with a pioneering spirit.</p>
+
+        
+    </div>
+<div id="Team">
+<h2>Team oriented</h2>
+<p>TI APPS A PASSIONATE TEAM ORIENTED COMPANY:  Values are aimed at developing a customer-focused, high-performance organisation which creates value for all its stakeholders.We do what is right, do it well and win. We will strive for excellence in whatever we do.</p>
+
+<p>Trusteeship</p>
+<p>As professional managers, we are conscious that TI APPS has been given to us in "trust" by all our stakeholders. We will actualise stakeholder value and interest on a long term sustainable basis.</p>
+
+<p>Customer Focus</p>
+<p>We are always customer focused and will deliver what the customer needs in terms of value, quality and satisfaction.</p>
+<p>Respect For People</p>
+<p>Innovation</p>
+<p>We will constantly pursue newer and better processes, products, services and management practices.</p>
+</div>
+</div>
+        
+        
+        
+        
+        
+      </div>
+      <div class="content-right-block">
+        <div class="client-comments">
+          <h2>Client Testimonials</h2>
+          <div class="client-testimonials">
+                        <p><img src="images/avatar_m.jpg" class="user" border="0" alt="TIapps" />GiftIndex.co.uk is now launched. A big thanks goes to the team at Ti Apps for building the website</p>
+            <div class="clent-name"><b>(Oliver Springate)<em>Oliver Springate-</em></b></div>
+          </div>
+        </div>
+        
+        
+        <h2>Our Recent Projects</h2>
+                <div id="myGallery">
+     		<img src="upload/portfolio_image/1344842477~buy-hp.jpg" class="active" alt="TIapps" />
+     
+   <img src="upload/portfolio_image/1344842282~fujitsu-img.jpg" alt="TIapps" />
+         
+   <img src="upload/portfolio_image/1344842477~buy-hp.jpg" alt="TIapps" />
+         
+   <img src="upload/portfolio_image/1344842528~bookofcool-img.jpg" alt="TIapps" />
+         
+   <img src="upload/portfolio_image/1344842639~comptoirjewels-img.jpg" alt="TIapps" />
+         
+   <img src="upload/portfolio_image/1345194026~melbournenaturalwellness-img.jpg" alt="TIapps" />
+         
+   <img src="upload/portfolio_image/1345194085~sulamericas-img.jpg" alt="TIapps" />
+         
+   <img src="upload/portfolio_image/1345195159~3flowplumbing-img.jpg" alt="TIapps" />
+         
+   <img src="upload/portfolio_image/1345195207~waycrafts-img.jpg" alt="TIapps" />
+         
+   <img src="upload/portfolio_image/1345468455~portfolio.jpg" alt="TIapps" />
+         
+   <img src="upload/portfolio_image/1346763072~meetingandmore.pendraft-img.jpg" alt="TIapps" />
+         
+   <img src="upload/portfolio_image/1345551917~giftindex-img.jpg" alt="TIapps" />
+         
+   <img src="upload/portfolio_image/1345552014~shortlet-london-img.jpg" alt="TIapps" />
+         
+   <img src="upload/portfolio_image/1346748542~combatsports-img.jpg" alt="TIapps" />
+         
+   <img src="upload/portfolio_image/1346748599~flower-Innovations-img.jpg" alt="TIapps" />
+     
+  </div>
+
+
+<!-- container for the slides -->
+
+
+<!-- "next slide" button -->
+
+
+<!-- the tabs -->
+
+      </div>
+    </div>
+    <div class="clear"></div>
+  </div>
+  <!--  testimonial part start end-->
+  
+  
+  <!--  j-carosal part start-->
+
+  
+  <div id="wrap">
+  
+  
+
+  <ul id="scroller">
+    <li><img src="images/logo1.png" alt="" /></li>
+    <li><img src="images/logo2.png" alt="" /></li>
+    <li><img src="images/logo3.png" alt="" /></li>
+    <li><img src="images/logo4.png" alt="" /></li>
+    <li><img src="images/logo5.png" alt="" /></li>
+    <li><img src="images/logo6.png" alt="" /></li>
+    <li><img src="images/logo7.png" alt="" /></li>
+    <li><img src="images/logo8.png" alt="" /></li>
+    <li><img src="images/logo9.png" alt="" /></li>
+
+      </ul>
+
+</div>
+  <!--  j-carosal part  end-->
+  <div class="clear"></div>
+</div>
+<!-- footer slider -->
+
+
+  
+
+  <!-- Footer Warper 	-->
+
+  
+
+  
+<div id="footer">
+  <div class="footer_warper">
+    <div class="foot_box">
+      <h3>Technology Services</h3>
+      <ul>
+        <li> <a href="http://tiapps.co.uk/Services/search_engine_optimization.html">Search Engine Optimization</a> </li>
+        <li> <a href="http://tiapps.co.uk/Services/w3C_validation.html">W3C Validation</a></li>
+        <li><a href="http://tiapps.co.uk/Services/cross_browser_compatibility.html">Cross Browser Compatibility</a></li>
+        <li><a href="http://tiapps.co.uk/Services/pixel-perfect_conversion.html">Pixel-Perfect Conversion</a></li>
+        <li><a href="http://tiapps.co.uk/Services/corporate_identity_packages.html">Corporate Identity Packages</a></li>
+        <li><a href="http://tiapps.co.uk/Services/content_management_systems.html">Content Management Systems</a></li>
+        <li><a href="http://tiapps.co.uk/Services/user_experience_design.html">User Experience Design</a></li>
+      </ul>
+    </div>
+    <div class="foot_box">
+      <h3>Web Development</h3>
+      <ul>
+        <li><a href="http://tiapps.co.uk/services/web_development.html">Website Development</a></li>
+        <li><a href="http://tiapps.co.uk/services/website_design.html">Website Design</a></li>
+        <li><a href="http://tiapps.co.uk/Services/banner_design.html">Banner Design</a></li>
+        <li><a href="http://tiapps.co.uk/Services/graphic_design.html">Graphic Design</a></li>
+        <li><a href="http://tiapps.co.uk/services/logo_design.html">Logo Design</a></li>
+        <li><a href="http://tiapps.co.uk/Services/e-mail_template_design.html">E-mail Template Design</a></li>
+        <li><a href="http://tiapps.co.uk/Services/e-commerce_solutions.html">E-commerce Solutions</a></li>
+      </ul>
+    </div>
+    <div class="foot_box">
+      <h3>Social Media</h3>
+      <ul class="social_icon">
+        <li ><a class="twit" href="https://twitter.com/tiapps_info" target="_blank">Follow us on Twitter</a></li>
+        <li ><a class="fb" href="https://www.facebook.com/tiapps" target="_blank">Like us on Facebook</a></li>
+        <li ><a class="in" href="http://in.linkedin.com/pub/tiapps-india/56/637/862" target="_blank">Join us on Linkedin</a></li>
+        <li ><a class="led" href="#">Like us on Google Plus</a></li>
+      </ul>
+    </div>
+    <div class="footlast_box">
+      <h3>Main Links</h3>
+      <ul>
+        <li><a href="http://tiapps.co.uk/index.html">Home </a></li>
+        <li><a href="http://tiapps.co.uk/about">Company</a></li>
+        <li><a href="http://tiapps.co.uk/services">Services</a></li>
+        <li><a href="http://tiapps.co.uk/partner">Partner</a></li>
+        <li><a href="http://tiapps.co.uk/portfolio">Portfolio</a></li>
+        <li><a href="http://tiapps.co.uk/apply-now">Career</a></li>
+        <li><a href="http://tiapps.co.uk/contact">Contact Us </a></li>
+      </ul>
+    </div>
+
+  </div>
+  <div class="clear"></div>
+</div>
+  <div class="clear"></div>
+</div>
+
+</body></html>
+  
+
+  
+
+  <div class="clear"></div>
+
+</div>
+
+<!-- End of Page Content -->
+
+<!-- <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js"></script>
+
+		<script type="text/javascript" src="js/jquery.tmpl.min.js"></script>
+
+		<script type="text/javascript" src="js/jquery.slideshow.js"></script>
+
+        <script type="text/javascript">
+
+            $(function() {
+
+				$('#cn-slideshow').slideshow();
+
+            });
+
+        </script>-->
+
+		
+
+		
+
+		
+
+		
+
+		
+
+
+

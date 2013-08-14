@@ -1,0 +1,29 @@
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js"></script>
+<script type="text/javascript" src="js/jquery.datepick.js"></script>
+	<script type="text/javascript">
+	$(function() {
+		$('.popupDatepicker').datepick();
+		
+	});
+
+	function showDate(date) {
+		alert('The date chosen is ' + date);
+	}
+	</script>        
+	
+	<div class="action_buttons">
+		<table width="100%" cellspacing="0" cellpadding="0" class="global">
+         
+		
+		<form enctype="multipart/form-data" method="post" action="event_submit.html">
+		 Event Title : <input type="text" value="" name="eventtitle" size='100'><br/><br/>
+		 Event Date : <input type="text" value="" class="popupDatepicker" name="eventdate" size='100'><br/><br/>
+		 Event Location : <input type="text" value="" name="eventlocation" size='100'><br/><br/>
+		 Event Map : <textarea rows="5" cols="70" name="eventmap"></textarea><br/><br/>
+		 Event Content : <textarea rows="10" cols="40" name="eventcontent" id="content"></textarea>
+		
+		
+
+		 <br>Image : <input type="file" size="20" name="uploads[]" multiple='true'>
+		 <input type="submit" value="Submit" name="submit" class='button_light'><br> 
+		 </form>
